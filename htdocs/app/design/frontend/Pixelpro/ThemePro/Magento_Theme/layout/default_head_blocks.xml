@@ -1,0 +1,14 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <!--local resources-->
+        <css src="style.css"/>
+        <script src="Magento_Catalog::js.myjs.js" />
+
+        <!--external resources-->
+        <!--//copy link here: https://getbootstrap.com/docs/4.1/getting-started/introduction/
+        //https://fonts.google.com/-->  
+        <css src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css " src_type="url" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" src_type="url" />
+        <link rel="stylesheet" type="text/css" src="https://fonts.googleapis.com/css?family=Lato" src_type="url" />
+    </head>
+</page>
