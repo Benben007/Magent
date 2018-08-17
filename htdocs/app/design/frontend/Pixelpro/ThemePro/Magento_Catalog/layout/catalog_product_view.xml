@@ -13,5 +13,7 @@
     <update handle="page_calendar"/>
     <body>
         <move element="page.main.title" destination="product.info.media" before="-"/>
+        <move element="product.info.details" destination="product.info.extrahint" before="-"/>
+
     </body>
 </page>
