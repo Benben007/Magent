@@ -3,6 +3,8 @@
 //Fonts 
 body {
     font-family: 'Ubuntu', sans-serif;
+    color: #cda379;
+    text-align: center;
 }
 
 //background color
@@ -49,8 +51,30 @@ body {
 }
 
 //Full width 
-.header {
-    &.content {
-        padding: 30px, 0px, 0;
+//.header {
+//    &.content {
+//        padding: 30px, 0px, 0;
+//    }
+//}
+
+/* CONTENT */
+
+//Remove margin to use the full page
+.page-main {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    max-width:100%;
+}
+
+//Add the images in half pages
+.home-main{
+	display: inline-block;
+    width: 50%;
+    float: left;
+    line-height:0;
+    &:hover{
+        opacity: 0.7;
     }
 }
