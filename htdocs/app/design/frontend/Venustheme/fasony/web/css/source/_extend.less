@@ -6,6 +6,65 @@
 //
 // Source: https://github.com/h5bp/html5-boilerplate/commit/aa0396eae757
 
+//LOGO
+.header.content {
+  padding: 15px 0px 30px;
+  max-width: 100%;
+}
+
+.page-header {
+  border-bottom: 1px solid #eee;
+}
+
+@media (min-width: 1400px) { 
+  .page-header .logo {
+    left: 43%;
+  } 
+}
+
+@media (min-width: 1000px) { 
+  .page-header .logo {
+    left: 44%;
+  } 
+}
+
+//TOGGLE AND CART
+@media (max-width: 991px) {
+  .nav-toggle:before {
+    font-size: 25px;
+  }
+}
+
+.minicart-wrapper .action.showcart::before {
+  font-size: 25px !important;
+}
+
+@media (max-width: 991px) {
+  .page-header .minicart-wrapper {
+    /* position: relative; */
+    top: -48px !important;
+  }
+}
+
+.minicart-wrapper .action.showcart .counter.qty {
+  top:-13px;
+  right:4px;
+}
+
+
+
+//NAVIGATION
+.nav-sections-item-content {
+  text-align: center;
+  margin: 15px;
+  letter-spacing: 3.9px;
+}
+
+//ALL
+body .page-wrapper {
+  font-family: "Avenir", sans-serif;
+}
+
 // Deprecated as of v3.0.1 (has been removed in v4)
 .hide-text() {
   font: ~"0/0" a;
@@ -855,7 +914,7 @@
       padding-top: 8px;
       text-align: center;
       width: 100%;
-      img{max-width: 110px; max-height: 45px;}
+      img{max-width: 150px; max-height: 70px;}
     }
     .minicart-warp{
       position: absolute;
@@ -905,9 +964,9 @@
   .ves-megamenu li.level0 > a, .navigation .level0 > .level-top{padding: 0 10px!important;}
   .products-grid .product-item{width: 33.3333%;}
 
-    .ves-header .custom-group .action.toggle {
-        padding: 15px !important;
-    }
+    //.ves-header .custom-group .action.toggle {
+    //    padding: 15px !important;
+    //}
 
     .ves-slideshow {
         .ves-slider {
@@ -935,7 +994,7 @@
 
 // Mobile responsive max-width 768px
 @media (max-width: 767px) { 
-    .logo img { max-width: 60px !important;}
+    .logo img { max-width: 150px !important;}
 
     .img-responsive, 
     .thumbnail > img, 
